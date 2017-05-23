@@ -1,0 +1,9 @@
+group 'com.jk'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+dependencies{
+    //ÒÀÀµÓÚcommon
+    compile project(":ssm-common-02")
+}
